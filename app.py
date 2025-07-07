@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import os
 import uuid
+import gunicorn
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
